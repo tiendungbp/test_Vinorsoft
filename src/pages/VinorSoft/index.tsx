@@ -48,7 +48,7 @@ const Vinor = () => {
   };
   return (
     <div className="w-[670px] m-auto">
-      <p>List poke 123</p>
+      <p>List poke 123 789</p>
       <input
         className="w-full outline-none px-[20px] py-[10px] rounded-[7px]"
         type="text"
