@@ -1,15 +1,12 @@
 import React from "react";
 import { useRoutes, Navigate } from "react-router-dom";
-import Vinor from "../pages/VinorSoft";
-
-
+import { Test } from "../pages/Vinorsoft";
 const Router = (): JSX.Element | null => {
   const element = useRoutes([
     {
       path: "/",
-      element: <Vinor />,
-    
-    }
+      element: <Test />,
+    },
   ]);
   return element;
 };
