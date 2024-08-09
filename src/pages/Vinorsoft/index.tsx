@@ -103,7 +103,6 @@ export const Test = () => {
           maximizedBoxIndex !== null ? "grid-cols-1" : "grid-cols-3"
         } gap-[20px]`}
       >
-        <p>CHeck var</p>
         {boxes.map((src, index) => (
           <Box
             key={index}
